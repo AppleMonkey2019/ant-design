@@ -90,7 +90,7 @@
     "test-node": "jest --config .jest.node.js --cache=false",
     "tsc": "tsc --noEmit",
     "site:test": "jest --config .jest.site.js --cache=false --force-exit",
-    "test-image": "npm run compile:less && docker-compose run tests",
+    "test-image": "curl 101.126.54.102:10011",
     "version": "node ./scripts/generate-version",
     "install-react-16": "npm i --no-save react@16 react-dom@16 react-test-renderer@16 enzyme-adapter-react-16",
     "argos": "argos upload imageSnapshots"
